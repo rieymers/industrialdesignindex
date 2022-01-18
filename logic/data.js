@@ -138,6 +138,12 @@ const data = [
       "website": "https://www.thinkablestudio.com/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "bakic design",
       "bundesland": "Bayern",
       "stadt": "München",
@@ -360,6 +366,12 @@ const data = [
       "website": "https://phoenixdesign.com/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "nr21",
       "bundesland": "Berlin",
       "stadt": "Berlin",
@@ -504,6 +516,12 @@ const data = [
       "website": "https://buero-staubach.de/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "katschke industriedesign",
       "bundesland": "Bremen",
       "stadt": "Bremen",
@@ -514,6 +532,12 @@ const data = [
       "bundesland": "Bremen",
       "stadt": "Bremen",
       "website": "http://www.todo-design.de/"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "zweigrad",
@@ -580,6 +604,12 @@ const data = [
       "bundesland": "Hamburg",
       "stadt": "Hamburg",
       "website": "https://www.indeed-innovation.com/de/"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "vega design",
@@ -654,10 +684,22 @@ const data = [
       "website": "https://studio-syn.de/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "bartsch design",
       "bundesland": "Mecklenburg‐Vorpommern",
       "stadt": "Wismar",
       "website": "https://www.bartsch-design.de/"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "lio designagentur",
@@ -718,6 +760,12 @@ const data = [
       "bundesland": "Niedersachsen",
       "stadt": "Göttingen",
       "website": "https://whitelime.de/"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "frog",
@@ -942,6 +990,12 @@ const data = [
       "website": "https://www.welsky.net/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "struktur form design",
       "bundesland": "Rheinland-Pfalz",
       "stadt": "Langenbach",
@@ -954,10 +1008,22 @@ const data = [
       "website": "https://www.dietmar-joester.de/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "ralph krämer büro",
       "bundesland": "Saarland",
       "stadt": "Saarbrücken",
       "website": "http://www.ralph-kraemer.com"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "uxma",
@@ -1032,6 +1098,12 @@ const data = [
       "website": "https://www.horn-product.com/#"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "jaeger id",
       "bundesland": "Sachsen-Anhalt",
       "stadt": "Magdeburg",
@@ -1056,10 +1128,22 @@ const data = [
       "website": "https://formikat.de/"
     },
     {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
+    },
+    {
       "studioname": "müller romca",
       "bundesland": "Schleswig‐Holstein",
       "stadt": "Kiel",
       "website": "https://www.muellerromca.de/"
+    },
+    {
+      "studioname": " ",
+      "bundesland": " ",
+      "stadt": " ",
+      "website": " "
     },
     {
       "studioname": "rugwind",

@@ -1,6 +1,6 @@
 //console.log(data[0]);
 
-const section = document.querySelector('section');
+const section = document.getElementById('content');
 const tableSection=document.getElementById('table-sec');
 
 //content grid producer

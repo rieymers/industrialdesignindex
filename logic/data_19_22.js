@@ -150,6 +150,12 @@ const data=[
    "website": "https://www.prodesign-ulm.de/"
  },
  {
+  "studioname": "designship",
+  "bundesland": "Baden-Württemberg",
+  "stadt": "Ulm",
+  "website": "https://www.designship.de"
+},
+ {
    "studioname": "",
    "bundesland": "Bayern",
    "stadt": "",
@@ -402,15 +408,9 @@ const data=[
    "website": "https://www.ito-design.com/de/"
  },
  {
-   "studioname": "designship",
-   "bundesland": "Bayern",
-   "stadt": "Ulm",
-   "website": "https://www.designship.de"
- },
- {
    "studioname": "eisele kuberg design",
    "bundesland": "Bayern",
-   "stadt": "Ulm",
+   "stadt": "Ulm (Neu-Ulm)",
    "website": "http://eiselekubergdesign.de"
  },
  {

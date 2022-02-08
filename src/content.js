@@ -4,17 +4,43 @@ const section = document.getElementById('content');
 const tableSection=document.getElementById('table-sec');
 const url='../src/data_19_22.json';
 
+var jsonResponse;
+var bundesland='Baden-Württemberg';
+
 //json parsing & content creation
 var req=new XMLHttpRequest();
 req.responseType='json';
 req.open('GET',url,true);
 req.onload=function(){
-    var jsonResponse=req.response;
+    jsonResponse=req.response;
+    //console.log(jsonResponse[1].bundesland);
     for (let i = 0; i < jsonResponse.length; i++) {
-        createGridContent(jsonResponse,i);   
+        if (jsonResponse[i].bundesland==bundesland) {
+            createGridContent(jsonResponse,i);   
+        }  else {
+            createGridContent(jsonResponse,i); 
+        }
     }
 };
 req.send(null);
+
+function clearBox(){
+    section.innerHTML="";
+}
+
+function sortBundesland(land){
+    jsonResponse=req.response;
+    clearBox();
+    //createGridContent(jsonResponse,1);
+    for (let i = 0; i < jsonResponse.length; i++) {
+        if (jsonResponse[i].bundesland===land) {
+            //console.log(jsonResponse[i+1].studioname);
+            createGridContent(jsonResponse,i);
+        } else if (land=='all') {
+            createGridContent(jsonResponse,i);
+        } 
+    }
+}
 
 
 //content grid producer

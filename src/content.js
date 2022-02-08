@@ -31,10 +31,9 @@ function clearBox(){
 function sortBundesland(land){
     jsonResponse=req.response;
     clearBox();
-    //createGridContent(jsonResponse,1);
+    //code above clears section
     for (let i = 0; i < jsonResponse.length; i++) {
         if (jsonResponse[i].bundesland===land) {
-            //console.log(jsonResponse[i+1].studioname);
             createGridContent(jsonResponse,i);
         } else if (land=='all') {
             createGridContent(jsonResponse,i);

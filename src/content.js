@@ -2,6 +2,20 @@
 
 const section = document.getElementById('content');
 const tableSection=document.getElementById('table-sec');
+const url='../src/data_19_22.json';
+
+//json parsing & content creation
+var req=new XMLHttpRequest();
+req.responseType='json';
+req.open('GET',url,true);
+req.onload=function(){
+    var jsonResponse=req.response;
+    for (let i = 0; i < jsonResponse.length; i++) {
+        createGridContent(jsonResponse,i);   
+    }
+};
+req.send(null);
+
 
 //content grid producer
 
@@ -42,12 +56,4 @@ function createGridContent(data,pos){
     gridDiv.appendChild(webDiv);
 
     section.appendChild(gridDiv);
-}
-
-
-
-
-//content creation and DOM manip loop
-for (let i = 0; i < data.length; i++) {
-    createGridContent(data,i);   
 }

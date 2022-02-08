@@ -1,27 +1,39 @@
-const data = [
+[
     {
-      "studioname": "defortec",
+      "studioname":  "",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Stuttgart",
-      "website": "https://www.defortec.de/"
+      "stadt": "",
+      "website": ""
     },
     {
-      "studioname": "up design",
+      "studioname": "form 3 designstudios",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Stuttgart",
-      "website": "https://www.updesignstudio.de/"
+      "stadt": "Althengstett",
+      "website": "https://www.form3.de/"
     },
     {
-      "studioname": "porsche design",
+      "studioname": "scala design",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Ludwigsburg",
-      "website": "https://www.porsche-design.com/"
+      "stadt": "Böblingen",
+      "website": "https://www.scala-design.de/"
     },
     {
-      "studioname": "prodesign",
+      "studioname": "kachel industriedesign",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Ulm",
-      "website": "https://www.prodesign-ulm.de/"
+      "stadt": "Heilbronn",
+      "website": "https://kachel-industriedesign.de/"
+    },
+    {
+      "studioname": "everdesign studio",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Ihringen a. K.",
+      "website": "https://www.everdesign.de/"
+    },
+    {
+      "studioname": "cognito design und engineering",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Karlsruhe",
+      "website": "https://www.cognito.de/"
     },
     {
       "studioname": "solidfluid",
@@ -42,22 +54,40 @@ const data = [
       "website": "http://www.md-design.net/"
     },
     {
-      "studioname": "scala design",
+      "studioname": "heiku design",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Böblingen",
-      "website": "https://www.scala-design.de/"
+      "stadt": "Lauterbach",
+      "website": "http://www.heikudesign.com/"
+    },
+    {
+      "studioname": "porsche design",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Ludwigsburg",
+      "website": "https://www.porsche-design.com/"
+    },
+    {
+      "studioname": "yuno design",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Mannheim",
+      "website": "https://www.yunodesign.com"
+    },
+    {
+      "studioname": "thinkable studio gmbh",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Offenburg",
+      "website": "https://www.thinkablestudio.com/"
+    },
+    {
+      "studioname": "up design",
+      "bundesland": "Baden-Württemberg",
+      "stadt": "Stuttgart",
+      "website": "https://www.updesignstudio.de/"
     },
     {
       "studioname": "eber industrial design",
       "bundesland": "Baden-Württemberg",
       "stadt": "Stuttgart",
       "website": "http://ebert-industrialdesign.com"
-    },
-    {
-      "studioname": "form 3 designstudios",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "Althengstett",
-      "website": "https://www.form3.de/"
     },
     {
       "studioname": "pdlab",
@@ -96,82 +126,76 @@ const data = [
       "website": "https://www.synapsisdesign.com"
     },
     {
-      "studioname": "kachel industriedesign",
+      "studioname": "idaid",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Heilbronn",
-      "website": "https://kachel-industriedesign.de/"
+      "stadt": "Stuttgart",
+      "website": "http://idaid.com/"
     },
     {
-      "studioname": "cognito design und engineering",
+      "studioname": "defortec",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Karlsruhe",
-      "website": "https://www.cognito.de/"
+      "stadt": "Tübingen",
+      "website": "https://www.defortec.de/"
     },
     {
-      "studioname": "hetterich product design",
+      "studioname": "prodesign",
       "bundesland": "Baden-Württemberg",
-      "stadt": "Bad Dürkheim",
-      "website": "https://www.markhetterich.com/"
+      "stadt": "Ulm",
+      "website": "https://www.prodesign-ulm.de/"
     },
     {
-      "studioname": "yuno design",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "Mannheim",
-      "website": "https://www.yunodesign.com"
-    },
+     "studioname": "designship",
+     "bundesland": "Baden-Württemberg",
+     "stadt": "Ulm",
+     "website": "https://www.designship.de"
+   },
     {
-      "studioname": "everdesign studio",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "Ihringen a. K.",
-      "website": "https://www.everdesign.de/"
-    },
-    {
-      "studioname": "heiku design",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "Lauterbach",
-      "website": "http://www.heikudesign.com/"
-    },
-    {
-      "studioname": "thinkable studio gmbh",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "Offenburg",
-      "website": "https://www.thinkablestudio.com/"
-    },
-    {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
-    },
-    {
-      "studioname": "bakic design",
+      "studioname": "",
       "bundesland": "Bayern",
-      "stadt": "München",
-      "website": "https://bakic.com/"
+      "stadt": "",
+      "website": ""
     },
     {
-      "studioname": "nizeone",
+      "studioname": "designflow daniel nusser",
       "bundesland": "Bayern",
-      "stadt": "München",
-      "website": "https://www.nizeone.de/"
+      "stadt": "Augsburg",
+      "website": "https://www.designflow.de/"
     },
     {
-      "studioname": "atdesign",
+      "studioname": "grewer industriedesign",
       "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "https://atdesign.de/"
+      "stadt": "Augsburg",
+      "website": "https://www.grewer-industriedesign.de/"
     },
     {
-      "studioname": "wilddesign",
+      "studioname": "selic industriedesign",
       "bundesland": "Bayern",
-      "stadt": "München",
-      "website": "https://wilddesign.de"
+      "stadt": "Augsburg",
+      "website": "https://selic.de/"
     },
     {
-      "studioname": "hoch e",
+      "studioname": "nexxon design",
       "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "https://hoch-e.com/"
+      "stadt": "Coburg",
+      "website": "https://www.nexxon-design.de/"
+    },
+    {
+      "studioname": "8quadrat",
+      "bundesland": "Bayern",
+      "stadt": "Coburg",
+      "website": "https://www.8quadrat.de/"
+    },
+    {
+      "studioname": "busse design",
+      "bundesland": "Bayern",
+      "stadt": "Elchingen",
+      "website": "https://busse-design.com/"
+    },
+    {
+      "studioname": "corpus c design",
+      "bundesland": "Bayern",
+      "stadt": "Fürth",
+      "website": "https://www.corpus-c.de/"
     },
     {
       "studioname": "max volk design",
@@ -180,10 +204,28 @@ const data = [
       "website": "https://maxvolk.design/"
     },
     {
-      "studioname": "designflow daniel nusser",
+      "studioname": "formvision",
       "bundesland": "Bayern",
-      "stadt": "Augsburg",
-      "website": "https://www.designflow.de/"
+      "stadt": "Ingolstadt",
+      "website": "https://formvision-gmbh.com/"
+    },
+    {
+      "studioname": "nizeone",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://www.nizeone.de/"
+    },
+    {
+      "studioname": "wilddesign",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://wilddesign.de"
+    },
+    {
+      "studioname": "bakic design",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://bakic.com/"
     },
     {
       "studioname": "formwelt",
@@ -226,84 +268,6 @@ const data = [
       "bundesland": "Bayern",
       "stadt": "München",
       "website": "https://fpdesign.com/"
-    },
-    {
-      "studioname": "nexxon design",
-      "bundesland": "Bayern",
-      "stadt": "Coburg",
-      "website": "https://www.nexxon-design.de/"
-    },
-    {
-      "studioname": "8quadrat",
-      "bundesland": "Bayern",
-      "stadt": "Coburg",
-      "website": "https://www.8quadrat.de/"
-    },
-    {
-      "studioname": "brandis industrial design",
-      "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "http://www.brandis-design.de/"
-    },
-    {
-      "studioname": "jungform design",
-      "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "http://jungformdesign.de/"
-    },
-    {
-      "studioname": "corpus c design",
-      "bundesland": "Bayern",
-      "stadt": "Fürth",
-      "website": "https://www.corpus-c.de/"
-    },
-    {
-      "studioname": "gambo design",
-      "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "https://gambo-design.de/"
-    },
-    {
-      "studioname": "markus bischof",
-      "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "https://markusbischof.de/"
-    },
-    {
-      "studioname": "ito design",
-      "bundesland": "Bayern",
-      "stadt": "Nürnberg",
-      "website": "https://www.ito-design.com/de/"
-    },
-    {
-      "studioname": "formvision",
-      "bundesland": "Bayern",
-      "stadt": "Ingolstadt",
-      "website": "https://formvision-gmbh.com/"
-    },
-    {
-      "studioname": "grewer industriedesign",
-      "bundesland": "Bayern",
-      "stadt": "Augsburg",
-      "website": "https://www.grewer-industriedesign.de/"
-    },
-    {
-      "studioname": "selic industriedesign",
-      "bundesland": "Bayern",
-      "stadt": "Augsburg",
-      "website": "https://selic.de/"
-    },
-    {
-      "studioname": "designship",
-      "bundesland": "Bayern",
-      "stadt": "Ulm",
-      "website": "https://www.designship.de"
-    },
-    {
-      "studioname": "eisele kuberg design",
-      "bundesland": "Bayern",
-      "stadt": "Ulm",
-      "website": "http://eiselekubergdesign.de"
     },
     {
       "studioname": "digitalform",
@@ -366,10 +330,88 @@ const data = [
       "website": "https://phoenixdesign.com/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "neomind",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://neomind.eu/"
+    },
+    {
+      "studioname": "supercreative",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://www.supercreative.de/"
+    },
+    {
+      "studioname": "oxxid",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "http://www.oxxid.de/"
+    },
+    {
+      "studioname": "schindler creations",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://schindlercreations.com/"
+    },
+    {
+      "studioname": "designaffairs",
+      "bundesland": "Bayern",
+      "stadt": "München",
+      "website": "https://www.designaffairs.com"
+    },
+    {
+      "studioname": "atdesign",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "https://atdesign.de/"
+    },
+    {
+      "studioname": "hoch e",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "https://hoch-e.com/"
+    },
+    {
+      "studioname": "brandis industrial design",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "http://www.brandis-design.de/"
+    },
+    {
+      "studioname": "jungform design",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "http://jungformdesign.de/"
+    },
+    {
+      "studioname": "gambo design",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "https://gambo-design.de/"
+    },
+    {
+      "studioname": "markus bischof",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "https://markusbischof.de/"
+    },
+    {
+      "studioname": "ito design",
+      "bundesland": "Bayern",
+      "stadt": "Nürnberg",
+      "website": "https://www.ito-design.com/de/"
+    },
+    {
+      "studioname": "eisele kuberg design",
+      "bundesland": "Bayern",
+      "stadt": "Ulm (Neu-Ulm)",
+      "website": "http://eiselekubergdesign.de"
+    },
+    {
+      "studioname": "",
+      "bundesland": "Berlin",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "nr21",
@@ -516,10 +558,16 @@ const data = [
       "website": "https://buero-staubach.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "schmidden",
+      "bundesland": "Berlin",
+      "stadt": "Berlin",
+      "website": "http://www.schmiddem.com"
+    },
+    {
+      "studioname": "",
+      "bundesland": "Bremen",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "katschke industriedesign",
@@ -534,10 +582,10 @@ const data = [
       "website": "http://www.todo-design.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Hamburg",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "zweigrad",
@@ -606,10 +654,10 @@ const data = [
       "website": "https://www.indeed-innovation.com/de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Hessen",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "vega design",
@@ -618,40 +666,10 @@ const data = [
       "website": "http://www.vegadesign.de/"
     },
     {
-      "studioname": "aroma id",
-      "bundesland": "Hessen",
-      "stadt": "Offenbach",
-      "website": "https://www.aroma-id.de/"
-    },
-    {
-      "studioname": "as industrial design",
-      "bundesland": "Hessen",
-      "stadt": "Limburg an der Lahn",
-      "website": "https://www.schulze-design.de/"
-    },
-    {
-      "studioname": "drebes oertel design studio",
-      "bundesland": "Hessen",
-      "stadt": "Kassel",
-      "website": "https://drebes-oertel.de/"
-    },
-    {
       "studioname": "daniel + erdwiens",
       "bundesland": "Hessen",
       "stadt": "Darmstadt",
       "website": "https://www.daniels-erdwiens.de/"
-    },
-    {
-      "studioname": "barski design",
-      "bundesland": "Hessen",
-      "stadt": "Frankfurt am Main",
-      "website": "https://www.barskidesign.com/"
-    },
-    {
-      "studioname": "speziell",
-      "bundesland": "Hessen",
-      "stadt": "Offenbach",
-      "website": "https://www.speziell.net/"
     },
     {
       "studioname": "andre stocker",
@@ -660,10 +678,10 @@ const data = [
       "website": "https://www.andre-stocker.de/"
     },
     {
-      "studioname": "botta design",
+      "studioname": "barski design",
       "bundesland": "Hessen",
-      "stadt": "Königstein im Taurus",
-      "website": "https://www.botta-produktdesign.de"
+      "stadt": "Frankfurt am Main",
+      "website": "https://www.barskidesign.com/"
     },
     {
       "studioname": "studio wagner",
@@ -672,10 +690,40 @@ const data = [
       "website": "https://wagner-design.de/"
     },
     {
+      "studioname": "drebes oertel design studio",
+      "bundesland": "Hessen",
+      "stadt": "Kassel",
+      "website": "https://drebes-oertel.de/"
+    },
+    {
+      "studioname": "botta design",
+      "bundesland": "Hessen",
+      "stadt": "Königstein im Taurus",
+      "website": "https://www.botta-produktdesign.de"
+    },
+    {
+      "studioname": "as industrial design",
+      "bundesland": "Hessen",
+      "stadt": "Limburg an der Lahn",
+      "website": "https://www.schulze-design.de/"
+    },
+    {
       "studioname": "neo neo design",
       "bundesland": "Hessen",
       "stadt": "Mainz",
       "website": "https://neoneo-design.de/"
+    },
+    {
+      "studioname": "aroma id",
+      "bundesland": "Hessen",
+      "stadt": "Offenbach",
+      "website": "https://www.aroma-id.de/"
+    },
+    {
+      "studioname": "speziell",
+      "bundesland": "Hessen",
+      "stadt": "Offenbach",
+      "website": "https://www.speziell.net/"
     },
     {
       "studioname": "studio syn",
@@ -684,10 +732,10 @@ const data = [
       "website": "https://studio-syn.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Mecklenburg-Vorpommern",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "bartsch design",
@@ -696,10 +744,10 @@ const data = [
       "website": "https://www.bartsch-design.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Niedersachsen",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "lio designagentur",
@@ -724,6 +772,12 @@ const data = [
       "bundesland": "Niedersachsen",
       "stadt": "Braunschweig",
       "website": "https://www.designsurf.de"
+    },
+    {
+      "studioname": "Whitelime",
+      "bundesland": "Niedersachsen",
+      "stadt": "Göttingen",
+      "website": "https://whitelime.de/"
     },
     {
       "studioname": "rudolph schelling webermann",
@@ -756,70 +810,34 @@ const data = [
       "website": "http://goodmaken.de/"
     },
     {
-      "studioname": "Whitelime",
-      "bundesland": "Niedersachsen",
-      "stadt": "Göttingen",
-      "website": "https://whitelime.de/"
-    },
-    {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
-    },
-    {
-      "studioname": "frog",
+      "studioname": "",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Düsseldorf",
-      "website": "https://www.frogdesign.com/"
+      "stadt": "",
+      "website": ""
     },
     {
-      "studioname": "budde industriedesign",
+      "studioname": "klassen design",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Münster",
-      "website": "https://www.budde-design.de/"
+      "stadt": "Arnsberg",
+      "website": "https://www.klassen-design.de/"
     },
     {
-      "studioname": "marktunddesign",
+      "studioname": "manuel welsky design studio",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Düsseldorf",
-      "website": "https://www.marktunddesign.com/"
-    },
-    {
-      "studioname": "dreiform",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Köln",
-      "website": "https://www.dreiform.de/"
-    },
-    {
-      "studioname": "dreikant design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Köln",
-      "website": "https://www.dreikant.net/"
-    },
-    {
-      "studioname": "tausend design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Steinhagen",
-      "website": "http://www.tausend-design.de/"
-    },
-    {
-      "studioname": "thiemann design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Münster",
-      "website": "https://thiemann-design.de/"
-    },
-    {
-      "studioname": "feder design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Münster",
-      "website": "http://www.federdesign.de/"
+      "stadt": "Bad Oeynhausen",
+      "website": "https://www.welsky.net/"
     },
     {
       "studioname": "cae innovative design",
       "bundesland": "Nordrhein-Westfalen",
       "stadt": "Beckum",
       "website": "https://www.cae-innovative-design.de/"
+    },
+    {
+      "studioname": "nexus product design",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Bielefeld",
+      "website": "https://www.nexusproductdesign.de/"
     },
     {
       "studioname": "projekter",
@@ -838,6 +856,66 @@ const data = [
       "bundesland": "Nordrhein-Westfalen",
       "stadt": "Duisburg",
       "website": "https://www.floez.de/"
+    },
+    {
+      "studioname": "asmblx",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Duisburg",
+      "website": "https://asmblx.eu/"
+    },
+    {
+      "studioname": "frog",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Düsseldorf",
+      "website": "https://www.frogdesign.com/"
+    },
+    {
+      "studioname": "marktunddesign",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Düsseldorf",
+      "website": "https://www.marktunddesign.com/"
+    },
+    {
+      "studioname": "entwurfreich",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Düsseldorf",
+      "website": "https://entwurfreich.com/"
+    },
+    {
+      "studioname": "elbe eichhorn",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Düsseldorf",
+      "website": "https://elbeeichhorn.com/"
+    },
+    {
+      "studioname": "squareone",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Düsseldorf",
+      "website": "https://squareonegmbh.de"
+    },
+    {
+      "studioname": "lange id",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Essen",
+      "website": "https://www.lange-id.de/"
+    },
+    {
+      "studioname": "bunse 05",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Hagen",
+      "website": "https://www.bunse05.de/"
+    },
+    {
+      "studioname": "dreiform",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Köln",
+      "website": "https://www.dreiform.de/"
+    },
+    {
+      "studioname": "dreikant design",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Köln",
+      "website": "https://www.dreikant.net/"
     },
     {
       "studioname": "yellowdesign",
@@ -864,18 +942,6 @@ const data = [
       "website": "https://www.vosding.de/"
     },
     {
-      "studioname": "nexus product design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Bielefeld",
-      "website": "https://www.nexusproductdesign.de/"
-    },
-    {
-      "studioname": "lueke design form gmbh & co.kg",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Schloß Holte-Stukenbrock",
-      "website": "https://www.lueke-design.de/"
-    },
-    {
       "studioname": "formstark",
       "bundesland": "Nordrhein-Westfalen",
       "stadt": "Köln",
@@ -894,22 +960,46 @@ const data = [
       "website": "https://www.wilps-design.de/"
     },
     {
-      "studioname": "entwurfreich",
+      "studioname": "budde industriedesign",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Düsseldorf",
-      "website": "https://entwurfreich.com/"
+      "stadt": "Münster",
+      "website": "https://www.budde-design.de/"
     },
     {
-      "studioname": "elbe eichhorn",
+      "studioname": "thiemann design",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Düsseldorf",
-      "website": "https://elbeeichhorn.com/"
+      "stadt": "Münster",
+      "website": "https://thiemann-design.de/"
     },
     {
-      "studioname": "squareone",
+      "studioname": "feder design",
       "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Düsseldorf",
-      "website": "https://squareonegmbh.de"
+      "stadt": "Münster",
+      "website": "http://www.federdesign.de/"
+    },
+    {
+      "studioname": "subraumstudio",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Neuenrade",
+      "website": "https://subraumstudio.com/"
+    },
+    {
+      "studioname": "lueke design form gmbh & co.kg",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Schloß Holte-Stukenbrock",
+      "website": "https://www.lueke-design.de/"
+    },
+    {
+      "studioname": "tausend design",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Steinhagen",
+      "website": "http://www.tausend-design.de/"
+    },
+    {
+      "studioname": "id bleul",
+      "bundesland": "Nordrhein-Westfalen",
+      "stadt": "Voerde",
+      "website": "https://idbleul.com/"
     },
     {
       "studioname": "bossy design",
@@ -948,52 +1038,16 @@ const data = [
       "website": "https://www.designwesen.com/"
     },
     {
-      "studioname": "id bleul",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Voerde",
-      "website": "https://idbleul.com/"
+      "studioname": "",
+      "bundesland": "Rheinland-Pfalz",
+      "stadt": "",
+      "website": ""
     },
     {
-      "studioname": "lange id",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Essen",
-      "website": "https://www.lange-id.de/"
-    },
-    {
-      "studioname": "asmblx",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Duisburg",
-      "website": "https://asmblx.eu/"
-    },
-    {
-      "studioname": "bunse 05",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Hagen",
-      "website": "https://www.bunse05.de/"
-    },
-    {
-      "studioname": "subraumstudio",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Neuenrade",
-      "website": "https://subraumstudio.com/"
-    },
-    {
-      "studioname": "klassen design",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Arnsberg",
-      "website": "https://www.klassen-design.de/"
-    },
-    {
-      "studioname": "manuel welsky design studio",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "Bad Oeynhausen",
-      "website": "https://www.welsky.net/"
-    },
-    {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "hetterich product design",
+      "bundesland": "Rheinland-Pfalz",
+      "stadt": "Bad Dürkheim",
+      "website": "https://www.markhetterich.com/"
     },
     {
       "studioname": "struktur form design",
@@ -1008,10 +1062,10 @@ const data = [
       "website": "https://www.dietmar-joester.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Saarland",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "ralph krämer büro",
@@ -1020,28 +1074,16 @@ const data = [
       "website": "http://www.ralph-kraemer.com"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "",
+      "bundesland": "Sachsen",
+      "stadt": "",
+      "website": ""
     },
     {
-      "studioname": "uxma",
+      "studioname": "avid design",
       "bundesland": "Sachsen",
       "stadt": "Dresden",
-      "website": "https://uxma.de"
-    },
-    {
-      "studioname": "scoop id",
-      "bundesland": "Sachsen",
-      "stadt": "Dresden",
-      "website": "https://www.scoop-id.com/"
-    },
-    {
-      "studioname": "wolfram design",
-      "bundesland": "Sachsen",
-      "stadt": "Dresden",
-      "website": "https://www.wolframdesign.de/"
+      "website": "https://avid-studio.com/"
     },
     {
       "studioname": "heyho! Studio",
@@ -1050,10 +1092,46 @@ const data = [
       "website": "https://studioheyho.com/"
     },
     {
-      "studioname": "avid design",
+      "studioname": "horn design and engineering",
       "bundesland": "Sachsen",
       "stadt": "Dresden",
-      "website": "https://avid-studio.com/"
+      "website": "https://www.horn-product.com/#"
+    },
+    {
+      "studioname": "scoop id",
+      "bundesland": "Sachsen",
+      "stadt": "Dresden",
+      "website": "https://www.scoop-id.com/"
+    },
+    {
+      "studioname": "straubel & waechter",
+      "bundesland": "Sachsen",
+      "stadt": "Dresden",
+      "website": "https://www.straubel-waechter.de/"
+    },
+    {
+      "studioname": "wolfram design",
+      "bundesland": "Sachsen",
+      "stadt": "Dresden",
+      "website": "https://www.wolframdesign.de/"
+    },
+    {
+      "studioname": "uxma",
+      "bundesland": "Sachsen",
+      "stadt": "Dresden",
+      "website": "https://uxma.de"
+    },
+    {
+      "studioname": "cyclic.design",
+      "bundesland": "Sachsen",
+      "stadt": "Leipzig",
+      "website": "https://cyclic.design/"
+    },
+    {
+      "studioname": "etage 8",
+      "bundesland": "Sachsen",
+      "stadt": "Leipzig",
+      "website": "https://www.etage8.com/"
     },
     {
       "studioname": "felix monza industrial design",
@@ -1068,52 +1146,16 @@ const data = [
       "website": "https://schroeder-design.de/"
     },
     {
-      "studioname": "cyclic.design",
-      "bundesland": "Sachsen",
-      "stadt": "Leipzig",
-      "website": "https://cyclic.design/"
-    },
-    {
       "studioname": "studio schupplerschwarz",
       "bundesland": "Sachsen",
       "stadt": "Leipzig",
       "website": "https://www.schupplerschwarz.de/"
     },
     {
-      "studioname": "etage 8",
-      "bundesland": "Sachsen",
-      "stadt": "Leipzig",
-      "website": "https://www.etage8.com/"
-    },
-    {
-      "studioname": "straubel & waechter",
-      "bundesland": "Sachsen",
-      "stadt": "Dresden",
-      "website": "https://www.straubel-waechter.de/"
-    },
-    {
-      "studioname": "horn design and engineering",
-      "bundesland": "Sachsen",
-      "stadt": "Dresden",
-      "website": "https://www.horn-product.com/#"
-    },
-    {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
-    },
-    {
-      "studioname": "jaeger id",
+      "studioname": "",
       "bundesland": "Sachsen-Anhalt",
-      "stadt": "Magdeburg",
-      "website": "https://www.jaeger-id.com/de/"
-    },
-    {
-      "studioname": "faktor m",
-      "bundesland": "Sachsen-Anhalt",
-      "stadt": "Magdeburg",
-      "website": "https://www.faktor-m.de/"
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "design upgrade",
@@ -1128,10 +1170,22 @@ const data = [
       "website": "https://formikat.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
+      "studioname": "jaeger id",
+      "bundesland": "Sachsen-Anhalt",
+      "stadt": "Magdeburg",
+      "website": "https://www.jaeger-id.com/de/"
+    },
+    {
+      "studioname": "faktor m",
+      "bundesland": "Sachsen-Anhalt",
+      "stadt": "Magdeburg",
+      "website": "https://www.faktor-m.de/"
+    },
+    {
+      "studioname": "",
+      "bundesland": "Schleswig-Holstein",
+      "stadt": "",
+      "website": ""
     },
     {
       "studioname": "müller romca",
@@ -1140,21 +1194,27 @@ const data = [
       "website": "https://www.muellerromca.de/"
     },
     {
-      "studioname": " ",
-      "bundesland": " ",
-      "stadt": " ",
-      "website": " "
-    },
+     "studioname": "",
+     "bundesland": "Thüringen",
+     "stadt": "",
+     "website": ""
+   },
     {
-      "studioname": "rugwind",
+      "studioname": "art-kon-tor",
       "bundesland": "Thüringen",
-      "stadt": "Weimar",
-      "website": "https://rugwind.de/"
+      "stadt": "Jena",
+      "website": "https://www.art-kon-tor.de"
     },
     {
       "studioname": "aprovia design",
       "bundesland": "Thüringen",
       "stadt": "Ranis",
       "website": "https://www.aprovia-design.de/"
+    },
+    {
+      "studioname": "rugwind",
+      "bundesland": "Thüringen",
+      "stadt": "Weimar",
+      "website": "https://rugwind.de/"
     }
-   ];
+   ]

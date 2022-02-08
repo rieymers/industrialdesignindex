@@ -2,6 +2,34 @@
     color: white;
 }
 
+.btn-container{
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0 20px 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+}
+
+.btn-container::-webkit-scrollbar {
+    display: none;
+}
+
+.bundesland-btn{
+    white-space: nowrap;
+   text-align: center;
+   margin-right: 10px;
+   background-color: #f07948;
+   border: 0;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+}
+
+.bundesland-btn:active, .bundesland-btn:hover{
+    background-color: #a7502b;
+}
+
 .grid-container{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 

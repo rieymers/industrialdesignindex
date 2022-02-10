@@ -1,5 +1,3 @@
-//console.log(data[0]);
-
 const section = document.getElementById('content');
 const tableSection=document.getElementById('table-sec');
 const url='../src/data_19_22.json';
@@ -40,7 +38,6 @@ function sortBundesland(land){
         } 
     }
 }
-
 
 //content grid producer
 

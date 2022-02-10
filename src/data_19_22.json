@@ -708,12 +708,6 @@
       "website": "https://www.schulze-design.de/"
     },
     {
-      "studioname": "neo neo design",
-      "bundesland": "Hessen",
-      "stadt": "Mainz",
-      "website": "https://neoneo-design.de/"
-    },
-    {
       "studioname": "aroma id",
       "bundesland": "Hessen",
       "stadt": "Offenbach",
@@ -1048,6 +1042,12 @@
       "bundesland": "Rheinland-Pfalz",
       "stadt": "Bad Dürkheim",
       "website": "https://www.markhetterich.com/"
+    },
+    {
+      "studioname": "neo neo design",
+      "bundesland": "Rheinland-Pfalz",
+      "stadt": "Mainz",
+      "website": "https://neoneo-design.de/"
     },
     {
       "studioname": "struktur form design",

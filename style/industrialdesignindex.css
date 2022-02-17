@@ -1,89 +1,12 @@
-section{
-    min-height:100vh;
+#mainContainer{
+    max-width: 576px;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
 }
 
 .key-white{
     color: white;
-}
-
-.btn-container{
-    display: flex;
-    overflow-x: scroll;
-    padding: 20px 0 20px 0;
-    -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-
-}
-
-.btn-container::-webkit-scrollbar {
-    display: none;
-}
-
-.bundesland-btn{
-    white-space: nowrap;
-   text-align: center;
-   margin-right: 10px;
-   background-color: #f07948;
-   border: 0;
-   border-radius: 5px;
-   color: white;
-   cursor: pointer;
-}
-
-.bundesland-btn:active, .bundesland-btn:hover{
-    background-color: #a7502b;
-}
-
-.grid-container{
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    gap: 0px 10px; 
-    grid-template-areas: 
-    "name state city web"; 
-    align-items: baseline;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    border-bottom: solid 1.5px black;
-    padding: 0;
-    margin: 0;
-}
-
-
-.name { grid-area: name; }
-.state { grid-area: state; }
-.city { grid-area: city; }
-.web { grid-area: web; }
-
-.name h3{
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0;
-}
-
-.web a{
-    font-size: 14öpx;
-    text-decoration: none;
-    font-weight: 700;
-    padding: 0;
-    margin: 0;
-}
-
-.web a:hover{
-    color: #f07948;
-}
-
-.state .city p{
-    font-size: 14px;
-    padding: 0;
-    margin: 0;
-}
-
-#sorter{
-    font-size: 14px;
-    text-transform: capitalize;
-    color: #f07948;
 }
 
 .footer{
@@ -97,33 +20,90 @@ section{
     text-decoration-color: white;
 }
 
-.main-btn{
-    text-decoration: none;
-}
 
-#explainer{
-    display: grid;
-}
-
-@media screen and (max-width:576px){
-    .grid-container {  display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        gap: 0px 10px;
-        grid-auto-flow: row;
+    .top-nav-m{
+        top: 0;
+        max-height: 48px;
+        min-width: 100vw;
+        display: flex;
         align-items: center;
-        justify-content: center;
-      }
-      
-      .name { grid-area: 1 / 1 / 2 / 2; }
-      
-      .state { grid-area: 2 / 1 / 3 / 2; }
-      
-      .city { grid-area: 3 / 1 / 4 / 2; }
-      
-      .web { grid-area: 4 / 1 / 5 / 2; }
-      
-    #explainer{
-        display: none;
+        margin:0;
+        padding: 0;
+        position: fixed;
+        justify-content: space-between;
+        background-color: white;
+        z-index: 100;
     }
-}
+
+    .top-nav-m h2{
+        font-size: 20px;
+        padding: 0;
+        margin: 16px auto 12px 15px;
+        color: #272727;
+    }
+
+    .top-nav-m svg{
+        margin: 21px 21px 12px auto;
+    }
+
+    .content-con-m{
+        margin-left: 16px;
+        margin-right:16px ;
+        padding: 0;
+    }
+
+    .content-con-m p{
+        margin: 68px 0 0 0;
+        padding: 0;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 300;
+        color: #272727;
+    }
+
+    .card-m{
+        background-color: white;
+        box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        position: relative;
+        margin-top: 19px;
+    }
+
+    .card-loc-m{
+        display: flex;
+        align-items: center;
+    }
+
+    .content-con-m .card-loc-m p{
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 9px;
+        margin-right: 3px;
+    }
+    .content-con-m .card-loc-m svg{
+        transform: scale(0.5);
+    }
+
+    .content-con-m .card-m h4{
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+        padding-top: 3px;
+        margin: 6px auto 2px 7px;
+        text-transform: uppercase;
+    }
+
+    .content-con-m .card-m a{
+        background-color: #f07948;
+        color: white;
+        font-size:11px;
+        padding: 6px 10px 5px 10px;
+        border-radius:5px;
+        font-weight: 700;
+        text-decoration: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 9px;
+    }
+

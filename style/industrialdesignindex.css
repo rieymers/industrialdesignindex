@@ -1,8 +1,62 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/lato-v22-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v22-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* lato-regular - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/lato-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* ROOT FONT STYLES */
+  
+  * {
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: #333447;
+    line-height: 16px;
+  }
+
 #mainContainer{
     max-width: 576px;
+    overflow-x: hidden;
     margin: auto;
     margin-top: 0;
     padding: 0;
+}
+
+#mobileContent{
+    min-height: 100vh;
 }
 
 .key-white{
@@ -20,97 +74,140 @@
     text-decoration-color: white;
 }
 
+.bundesland-select{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .top-nav-m{
-        top: 0;
-        max-height: 48px;
-        min-width: 100vw;
-        display: flex;
-        align-items: center;
-        margin:0;
-        padding: 0;
-        position: fixed;
-        justify-content: space-between;
-        background-color: white;
-        z-index: 100;
-    }
+#filter-text{
+    margin: 20px 0 20px 0;
+}
 
-    .top-nav-m h2{
-        font-size: 20px;
-        padding: 0;
-        margin: 16px auto 12px 15px;
-        color: #272727;
-    }
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around ;
+    justify-content: flex-end;
+}
 
-    .top-nav-m svg{
-        margin: 21px 21px 12px auto;
-    }
+.bundesland-btn{
+    background-color: white;
+    border: 1px solid #f07948;
+    border-radius: 5px;
+    color: #f07948;
+    font-weight: 300;
+    padding:5px 10px 5px 10px;
+    margin: 5px;
+}
 
-    .content-con-m{
-        margin-left: 16px;
-        margin-right:16px ;
-        padding: 0;
-    }
+.bundesland-btn:hover, .bundesland-btn.active{
+    background-color: #f07948;
+    color: white;
+}
 
-    .content-con-m p{
-        margin: 68px 0 0 0;
-        padding: 0;
-        font-size: 11px;
-        line-height: 16px;
-        font-weight: 300;
-        color: #272727;
-    }
 
-    .card-m{
-        background-color: white;
-        box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        position: relative;
-        margin-top: 19px;
-    }
 
-    .card-loc-m{
-        display: flex;
-        align-items: center;
-    }
+.top-nav-m{
+    top: 0;
+    max-height: 48px;
+    width: 576px;
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+}
+.top-nav-m h2{
+    font-size: 20px;
+    padding: 0;
+    margin: 16px auto 12px 15px;
+    color: #272727;
+}
+.top-nav-m svg{
+    margin: 21px 21px 12px auto;
+}
+.content-con-m{
+    margin-left: 16px;
+    margin-right:16px ;
+    padding: 0;
+}
+.content-con-m p{
+    margin: 68px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #272727;
+}
+.card-m{
+    background-color: white;
+    box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: relative;
+    margin-top: 19px;
+}
+.card-loc-m{
+    display: flex;
+    align-items: center;
+}
+.content-con-m .card-loc-m p{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 13px;
+    margin-right: 3px;
+}
+.content-con-m .card-loc-m svg{
+    transform: scale(0.5);
+}
+.content-con-m .card-m h4{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 3px;
+    margin: 6px auto 2px 7px;
+    text-transform: uppercase;
+}
+.content-con-m .card-m a{
+    background-color: #f07948;
+    color: white;
+    font-size:12px;
+    padding: 6px 10px 6px 10px;
+    border-radius:5px;
+    font-weight: 700;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 9px;
+}
+.content-con-m .card-m a:hover{
+    background-color: #bb5930;
+}
+.content-con-m .card-m a:active{
+    background-color: #bb5930;
+}
 
-    .content-con-m .card-loc-m p{
-        margin-top: 0;
-        padding-top: 0;
-        font-size: 11px;
-        margin-right: 3px;
-    }
-    .content-con-m .card-loc-m svg{
-        transform: scale(0.5);
-    }
+.footer{
+    width: 100%;
+    position: relative;
+}
 
-    .content-con-m .card-m h4{
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 16px;
-        padding-top: 3px;
-        margin: 6px auto 2px 7px;
-        text-transform: uppercase;
-    }
+.container{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 300;
+}
 
-    .content-con-m .card-m a{
-        background-color: #f07948;
-        color: white;
-        font-size:12px;
-        padding: 6px 10px 5px 10px;
-        border-radius:5px;
-        font-weight: 700;
-        text-decoration: none;
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin: 9px;
+@media screen and (min-width: 576px) {
+    #mainContainer{
+        -webkit-box-shadow: 0px 0px 37px -2px rgba(0,0,0,0.65); 
+        box-shadow: 0px 0px 37px -2px rgba(0,0,0,0.65);
     }
-
-    .content-con-m .card-m a:hover{
-        background-color: #bb5930;
-    }
-    .content-con-m .card-m a:active{
-        background-color: #bb5930;
-    }
-
+}

@@ -31,11 +31,15 @@ function sortBundesland(land){
     mobileCont.innerHTML="";
     //code above clears section
     for (let i = 0; i < jsonResponse.length; i++) {
-        if (jsonResponse[i].bundesland===land) {
-            createAppContent(jsonResponse,i);
-        } else if (land=='all') {
-            createAppContent(jsonResponse,i);
-        } 
+        if (jsonResponse[i].studioname==""){
+            jsonResponse.splice(i,1);
+        } else {
+            if (jsonResponse[i].bundesland===land) {
+                createAppContent(jsonResponse,i);
+            } else if (land=='all') {
+                createAppContent(jsonResponse,i);
+            };    
+        };
     }
 }
 

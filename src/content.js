@@ -1,3 +1,7 @@
+if ('serviceWorker' in navigator){
+    navigator.serviceWorker.register('../sw.js');
+};
+
 const url='../src/data_19_22.json';
 const mobileCont=document.getElementById('mobileContent');
 

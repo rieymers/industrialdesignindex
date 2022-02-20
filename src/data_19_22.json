@@ -1,11 +1,5 @@
 [
     {
-      "studioname":  "",
-      "bundesland": "Baden-Württemberg",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "form 3 designstudios",
       "bundesland": "Baden-Württemberg",
       "stadt": "Althengstett",
@@ -150,12 +144,6 @@
      "website": "https://www.designship.de"
    },
     {
-      "studioname": "",
-      "bundesland": "Bayern",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "designflow daniel nusser",
       "bundesland": "Bayern",
       "stadt": "Augsburg",
@@ -240,7 +228,7 @@
       "website": "https://www.eckstein-design.com/"
     },
     {
-      "studioname": "n+ p",
+      "studioname": "n + p",
       "bundesland": "Bayern",
       "stadt": "München",
       "website": "https://www.np-id.com/"
@@ -408,12 +396,6 @@
       "website": "http://eiselekubergdesign.de"
     },
     {
-      "studioname": "",
-      "bundesland": "Berlin",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "nr21",
       "bundesland": "Berlin",
       "stadt": "Berlin",
@@ -564,12 +546,6 @@
       "website": "http://www.schmiddem.com"
     },
     {
-      "studioname": "",
-      "bundesland": "Bremen",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "katschke industriedesign",
       "bundesland": "Bremen",
       "stadt": "Bremen",
@@ -580,12 +556,6 @@
       "bundesland": "Bremen",
       "stadt": "Bremen",
       "website": "http://www.todo-design.de/"
-    },
-    {
-      "studioname": "",
-      "bundesland": "Hamburg",
-      "stadt": "",
-      "website": ""
     },
     {
       "studioname": "zweigrad",
@@ -654,12 +624,6 @@
       "website": "https://www.indeed-innovation.com/de/"
     },
     {
-      "studioname": "",
-      "bundesland": "Hessen",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "vega design",
       "bundesland": "Hessen",
       "stadt": "Darmstadt",
@@ -676,6 +640,12 @@
       "bundesland": "Hessen",
       "stadt": "Dreieich",
       "website": "https://www.andre-stocker.de/"
+    },
+    {
+    "studioname": "andless",
+    "bundesland": "Hessen",
+    "stadt": "Frankfurt am Main",
+    "website": "https://andless.studio/"
     },
     {
       "studioname": "barski design",
@@ -726,22 +696,10 @@
       "website": "https://studio-syn.de/"
     },
     {
-      "studioname": "",
-      "bundesland": "Mecklenburg-Vorpommern",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "bartsch design",
       "bundesland": "Mecklenburg-Vorpommern",
       "stadt": "Wismar",
       "website": "https://www.bartsch-design.de/"
-    },
-    {
-      "studioname": "",
-      "bundesland": "Niedersachsen",
-      "stadt": "",
-      "website": ""
     },
     {
       "studioname": "lio designagentur",
@@ -802,12 +760,6 @@
       "bundesland": "Niedersachsen",
       "stadt": "Hannover",
       "website": "http://goodmaken.de/"
-    },
-    {
-      "studioname": "",
-      "bundesland": "Nordrhein-Westfalen",
-      "stadt": "",
-      "website": ""
     },
     {
       "studioname": "klassen design",
@@ -1032,12 +984,6 @@
       "website": "https://www.designwesen.com/"
     },
     {
-      "studioname": "",
-      "bundesland": "Rheinland-Pfalz",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "hetterich product design",
       "bundesland": "Rheinland-Pfalz",
       "stadt": "Bad Dürkheim",
@@ -1062,22 +1008,10 @@
       "website": "https://www.dietmar-joester.de/"
     },
     {
-      "studioname": "",
-      "bundesland": "Saarland",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "ralph krämer büro",
       "bundesland": "Saarland",
       "stadt": "Saarbrücken",
       "website": "http://www.ralph-kraemer.com"
-    },
-    {
-      "studioname": "",
-      "bundesland": "Sachsen",
-      "stadt": "",
-      "website": ""
     },
     {
       "studioname": "avid design",
@@ -1119,7 +1053,7 @@
       "studioname": "uxma",
       "bundesland": "Sachsen",
       "stadt": "Dresden",
-      "website": "https://uxma.de"
+      "website": "https://uxma.com"
     },
     {
       "studioname": "cyclic.design",
@@ -1152,12 +1086,6 @@
       "website": "https://www.schupplerschwarz.de/"
     },
     {
-      "studioname": "",
-      "bundesland": "Sachsen-Anhalt",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "design upgrade",
       "bundesland": "Sachsen-Anhalt",
       "stadt": "Halle",
@@ -1182,23 +1110,11 @@
       "website": "https://www.faktor-m.de/"
     },
     {
-      "studioname": "",
-      "bundesland": "Schleswig-Holstein",
-      "stadt": "",
-      "website": ""
-    },
-    {
       "studioname": "müller romca",
       "bundesland": "Schleswig-Holstein",
       "stadt": "Kiel",
       "website": "https://www.muellerromca.de/"
     },
-    {
-     "studioname": "",
-     "bundesland": "Thüringen",
-     "stadt": "",
-     "website": ""
-   },
     {
       "studioname": "art-kon-tor",
       "bundesland": "Thüringen",

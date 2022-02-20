@@ -6,10 +6,11 @@ It acts as  an resource for students, people looking for jobs or clients looking
 
 ## Roadmap 
 - [x] Create the MVP and gather data
-- [ ] Update the data display and fix lighthouse scores
-- [ ] Optimize display system for mobile sites
+- [x] Update the data display and fix lighthouse scores
+- [x] Optimize display system for mobile sites
 - [ ] Implement a real database
 - [ ] Implement a form to submit suggestions & further studios
 
 ## Known Issues
-- Mobile site display and performance
+- very few breakpoints of the design
+

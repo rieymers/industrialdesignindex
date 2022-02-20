@@ -109,5 +109,4 @@ function createAppContent(data,pos){
     cardDiv.appendChild(link);
 
     mobileCont.appendChild(cardDiv);
-    
 }

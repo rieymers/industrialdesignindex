@@ -14,32 +14,43 @@ req.open('GET',url,true);
 
 req.onload=function(){
     jsonResponse=req.response;
-    //console.log(jsonResponse[1].bundesland);
     for (let i = 0; i < jsonResponse.length; i++) {
-        if (jsonResponse[i].studioname==""){
-            jsonResponse.splice(i,1);
-        } else {
+            createAppContent(jsonResponse,i); 
+    }
+}
+
+req.send(null);
+
+const searching=document.getElementById("searching");
+
+searching.addEventListener("keyup", function (e) {
+    const inputText = e.target.value; // Get the text typed by user
+    searchStudios(inputText);
+});
+
+function searchStudios(keyword){
+    let count=0;
+    jsonResponse=req.response;
+    mobileCont.innerHTML="";
+    let re= new RegExp(keyword,"ig");
+    for (let i = 0; i < jsonResponse.length; i++) {
+        if (jsonResponse[i].studioname.match(re) || jsonResponse[i].stadt.match(re) || jsonResponse[i].bundesland.match(re)) {
+            //console.log(jsonResponse[i]);
             createAppContent(jsonResponse,i); 
         }
     }
-};
-
-req.send(null);
+}
 
 function sortBundesland(land){
     jsonResponse=req.response;
     mobileCont.innerHTML="";
     //code above clears section
     for (let i = 0; i < jsonResponse.length; i++) {
-        if (jsonResponse[i].studioname==""){
-            jsonResponse.splice(i,1);
-        } else {
             if (jsonResponse[i].bundesland===land) {
                 createAppContent(jsonResponse,i);
             } else if (land=='all') {
                 createAppContent(jsonResponse,i);
             };    
-        };
     }
 }
 
@@ -56,8 +67,7 @@ for (var i = 0; i < btns.length; i++) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
-} 
-
+};
 
 function createAppContent(data,pos){
     var cardDiv=document.createElement("Div");
@@ -99,4 +109,5 @@ function createAppContent(data,pos){
     cardDiv.appendChild(link);
 
     mobileCont.appendChild(cardDiv);
+    
 }

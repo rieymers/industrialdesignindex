@@ -2,7 +2,7 @@
     "name": "Design Index - Explore Studios!",
     "short_name": "Design Index",
     "start_url": "index.html",
-    "scope": "./",
+    "scope": "../",
     "icons":[{
         "src":"/icons/design_index_192.png",
         "sizes":"192x192",

@@ -1050,12 +1050,6 @@
       "website": "https://www.wolframdesign.de/"
     },
     {
-      "studioname": "uxma",
-      "bundesland": "Sachsen",
-      "stadt": "Dresden",
-      "website": "https://uxma.com"
-    },
-    {
       "studioname": "cyclic.design",
       "bundesland": "Sachsen",
       "stadt": "Leipzig",
@@ -1114,6 +1108,12 @@
       "bundesland": "Schleswig-Holstein",
       "stadt": "Kiel",
       "website": "https://www.muellerromca.de/"
+    },
+    {
+      "studioname": "uxma",
+      "bundesland": "Schleswig-Holstein",
+      "stadt": "Kiel",
+      "website": "https://uxma.com"
     },
     {
       "studioname": "art-kon-tor",

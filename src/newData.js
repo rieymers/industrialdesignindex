@@ -36,3 +36,6 @@ function display(data){
     }
 }
 
+let template = document.getElementById('studio-card');
+let templateContent = template.content;
+document.body.appendChild(templateContent);

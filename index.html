@@ -62,6 +62,21 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <template>
+            <div class="card-new">
+                <div class="mainInfo">
+                    <h3 id="wtf" class="newName">Design Studio Name</h3>
+                    <div class="locationInfo">
+                        <p class="newCity">Althengestett,</p>
+                        <p class="newState">Baden-Württemberg</p>
+                    </div>
+                </div>
+                <div class="visit-link">
+                    <a class="newLink" href="" target="_blank">Website</a>
+                </div>
+            </div>
+           </template>
         
 <div id="mainContainer">
     <div class="top-nav-m">
@@ -69,10 +84,10 @@
         <a href="/imprint.html"><svg style="transform: scale(.9);" fill="#f07948" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 18h-2v-8h2v8zm-1-12.25c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25z"/></svg></a>
     </div>
 
-       <div class="content-con-m">
-        <p>Finde Design Studios & Agenturen aus ganz Deutschland mit einem Fokus auf Industrial Design!</p>
-        <div class="">
-            <p id="filter-text">Filtern nach Bundesland:</p>
+       <div style="margin-top: 80px;" class="content-con-m">
+        <p class="intro-text">Finde Design Studios & Agenturen aus ganz Deutschland mit einem Fokus auf Industrial Design!</p>
+        <div>
+            <p class="intro-text" id="filter-text">Filtern nach Bundesland:</p>
         </div>
         <div id="1234" class="btn-container">
             <button class="bundesland-btn" value="Baden-Württemberg" onclick="sortBundesland(value)">Baden-Württemberg</button>
@@ -94,12 +109,16 @@
         </div>
        </div>
 
+       
+
        <div class="content-con-m">
         <input class="search-input" id="searching" type="search" placeholder="Suche nach: Name/Stadt/Bundesland">
        </div>
 
        <div id="mobileContent" class="content-con-m">
+
         
+
        </div>
 
 
